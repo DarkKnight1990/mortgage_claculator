@@ -1,0 +1,26 @@
+{
+  "name": "mortgage_calculator",
+  "version": "1.0.0",
+  "description": "The project is based on  [this](http://ccoenraets.github.io/es6-tutorial).",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkKnight1990/mortgage_claculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkKnight1990/mortgage_claculator/issues"
+  },
+  "homepage": "https://github.com/DarkKnight1990/mortgage_claculator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1"
+  }
+}
